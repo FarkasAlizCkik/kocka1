@@ -16,4 +16,12 @@ for i in range(30):
     k.append
     if i%menyi==menyi-1:
         print()
-    
+
+print("4.feladat")
+n=0
+nu=0
+for i in range(30):
+    if k[x]>0:
+        n+=1
+    if k[x]==0:
+        nu+=1
