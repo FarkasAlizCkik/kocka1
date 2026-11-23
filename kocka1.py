@@ -21,9 +21,9 @@ print("4.feladat")
 n=0
 nu=0
 for i in range(30):
-    if k[x]<0:
+    if k[i]<0:
         n+=1
-    if k[x]==0:
+    if k[i]==0:
         nu+=1
-print(f"{len(n)} db negatív szám van a listában.")
-print(f" {len(nu)} db mulla van a listában.")
+print(f"{n} db negatív szám van a listában.")
+print(f" {nu} db mulla van a listában.")
