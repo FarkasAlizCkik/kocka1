@@ -13,7 +13,7 @@ menyi=int(input("Mennyi szám legyen eg sorban? "))
 for i in range(30):
     x=random.randint(-10,10)
     print(f"{x:2}",end=" ")
-    k.append
+    k.append(x)
     if i%menyi==menyi-1:
         print()
 
@@ -21,7 +21,9 @@ print("4.feladat")
 n=0
 nu=0
 for i in range(30):
-    if k[x]>0:
+    if k[x]<0:
         n+=1
     if k[x]==0:
         nu+=1
+print(f"{len(n)} db negatív szám van a listában.")
+print(f" {len(nu)} db mulla van a listában.")
